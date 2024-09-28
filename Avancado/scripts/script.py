@@ -10,9 +10,6 @@ def parse_args():
     """
     parser = argparse.ArgumentParser()
 
-    # hyperparameter sent by the client are passed as command-line argument to the script
-    # We don't use these but I left them in as a useful template for future development
-
     # Hiperparâmetros do modelo (passados pelo Estimator)
     parser.add_argument('--max-depth', type=int, default=None)
     parser.add_argument('--n_jobs', type=int, default=None)
